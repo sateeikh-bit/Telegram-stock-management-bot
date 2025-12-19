@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: telegram-stock-bot
+    env: python
+    startCommand: python bot.py
